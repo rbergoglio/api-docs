@@ -1,9 +1,9 @@
 openapi: 3.0.3
 info:
-  title: API Académica (Draft)
+  title: Core API
   version: "0.1.2"
   description: >
-    Borrador de especificación OpenAPI para el proyecto de App Dev. 
+    Borrador de especificación OpenAPI para el proyecto de desarrollo de apliaciónes II.
     Recursos: cursos, materias, notas, actas, docente-materias y disponibilidades.
     Endpoints: GET/POST/GET {id}/PUT/DELETE para cada recurso.
 servers:
