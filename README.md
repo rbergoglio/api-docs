@@ -72,10 +72,6 @@ asyncapi validate ./asyncapi.yaml
 
 ### b) Generar el sitio HTML
 Algunas versiones del template requieren el **Generador v2**. Si ves un error de compatibilidad, agregá `--use-new-generator`:
-```bash
-asyncapi generate fromTemplate ./asyncapi.yaml @asyncapi/html-template -o ./site --use-new-generator
-```
-OR
 
 ```bash
 asyncapi generate fromTemplate ./asyncapi.yaml @asyncapi/html-template@3.0.0 --use-new-generator -o ./site --force-write -p singleFile=true sidebarOrganization=byTagsNoRoot
